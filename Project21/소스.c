@@ -66,12 +66,14 @@ int main(void)
 		printf("%d ", h.array[i].key);
 	}
 	printf("\n");
+
 	insert_max_heap(&h, e2);
 	for (int i = 1; i < 4; i++)
 	{
 		printf("%d ", h.array[i].key);
 	}
 	printf("\n");
+
 	insert_max_heap(&h, e3);
 	for (int i = 1; i < 4; i++)
 	{
@@ -88,3 +90,4 @@ int main(void)
 
 	return 1;
 }
+
